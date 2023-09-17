@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rotana Jobs and location</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Rotana Jobs  </h1>
+  <div class="top-bar">
+    <div class="search">
+      <input type="text" id="searchInput" placeholder="Job name or location ">
+      <button onclick="searchJobs()">Search</button>
+    </div>
+  
+    <div class="nav-link">
+      <a href="map.html">View Jobs on Map</a>
+    </div>
+  </div>
+  
+  
+  <table id="jobTable">
+    <thead>
+      <tr>
+        <th>Job Title</th>
+        <th>Location</th> 
+        <th>division</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script src="app.js"></script>
+</body>
+</html>
