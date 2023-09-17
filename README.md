@@ -8,3 +8,6 @@
 Output: Two view pages
 1) all rotana jobs titles Vs location in a table view.
 2) all rotana jobs titles distributed over google maps based on the job's location.
+
+to run the code in terminal:
+node script.js
